@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: YOUR_DOCKER_USERNAME/myapp:latest
+          image: JenishCloudEngineer/myapp:latest
           ports:
             - containerPort: 3000

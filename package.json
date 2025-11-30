@@ -1,7 +1,6 @@
 {
-  "name": "myapp",
+  "name": "cicd-app",
   "version": "1.0.0",
-  "description": "Test CI/CD app",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
