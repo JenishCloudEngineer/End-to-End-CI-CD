@@ -2,14 +2,9 @@ FROM node:18
 
 WORKDIR /app
 
-# Copy only package files first
-COPY package*.json ./
+copy . .
 
-# Install dependencies
 RUN npm install
-
-# Copy rest of the files
-COPY . .
 
 EXPOSE 3000
 
